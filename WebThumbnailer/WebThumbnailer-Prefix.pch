@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'WebThumbnailer' target in the 'WebThumbnailer' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

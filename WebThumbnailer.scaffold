@@ -1,0 +1,6 @@
+<scaffold project="WebThumbnailer" target="WebThumbnailer" version="1.0" configuration="Release" publisher="au.com.rayh" name="WebThumbnailer">
+  <sdk>iphoneos4.3</sdk>
+  <sdk>iphonesimulator4.3</sdk>
+
+  <headers>WebThumbnailer/*.h</headers>
+</scaffold>

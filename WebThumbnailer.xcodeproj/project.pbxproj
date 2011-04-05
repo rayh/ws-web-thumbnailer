@@ -1,0 +1,222 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71A18264134ADD7200B554F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71A18263134ADD7200B554F5 /* Foundation.framework */; };
+		71A1826F134ADD7D00B554F5 /* WebThumbnailer.h in Headers */ = {isa = PBXBuildFile; fileRef = 71A1826D134ADD7D00B554F5 /* WebThumbnailer.h */; };
+		71A18270134ADD7D00B554F5 /* WebThumbnailer.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A1826E134ADD7D00B554F5 /* WebThumbnailer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		71A18260134ADD7200B554F5 /* libWebThumbnailer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWebThumbnailer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		71A18263134ADD7200B554F5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		71A18267134ADD7200B554F5 /* WebThumbnailer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WebThumbnailer-Prefix.pch"; sourceTree = "<group>"; };
+		71A1826D134ADD7D00B554F5 /* WebThumbnailer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebThumbnailer.h; sourceTree = "<group>"; };
+		71A1826E134ADD7D00B554F5 /* WebThumbnailer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebThumbnailer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71A1825D134ADD7200B554F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71A18264134ADD7200B554F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71A18255134ADD7200B554F5 = {
+			isa = PBXGroup;
+			children = (
+				71A18265134ADD7200B554F5 /* WebThumbnailer */,
+				71A18262134ADD7200B554F5 /* Frameworks */,
+				71A18261134ADD7200B554F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71A18261134ADD7200B554F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71A18260134ADD7200B554F5 /* libWebThumbnailer.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71A18262134ADD7200B554F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71A18263134ADD7200B554F5 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		71A18265134ADD7200B554F5 /* WebThumbnailer */ = {
+			isa = PBXGroup;
+			children = (
+				71A1826D134ADD7D00B554F5 /* WebThumbnailer.h */,
+				71A1826E134ADD7D00B554F5 /* WebThumbnailer.m */,
+				71A18266134ADD7200B554F5 /* Supporting Files */,
+			);
+			path = WebThumbnailer;
+			sourceTree = "<group>";
+		};
+		71A18266134ADD7200B554F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				71A18267134ADD7200B554F5 /* WebThumbnailer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		71A1825E134ADD7200B554F5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71A1826F134ADD7D00B554F5 /* WebThumbnailer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		71A1825F134ADD7200B554F5 /* WebThumbnailer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71A1826A134ADD7200B554F5 /* Build configuration list for PBXNativeTarget "WebThumbnailer" */;
+			buildPhases = (
+				71A1825C134ADD7200B554F5 /* Sources */,
+				71A1825D134ADD7200B554F5 /* Frameworks */,
+				71A1825E134ADD7200B554F5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebThumbnailer;
+			productName = WebThumbnailer;
+			productReference = 71A18260134ADD7200B554F5 /* libWebThumbnailer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71A18257134ADD7200B554F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Sensis;
+			};
+			buildConfigurationList = 71A1825A134ADD7200B554F5 /* Build configuration list for PBXProject "WebThumbnailer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 71A18255134ADD7200B554F5;
+			productRefGroup = 71A18261134ADD7200B554F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71A1825F134ADD7200B554F5 /* WebThumbnailer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71A1825C134ADD7200B554F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71A18270134ADD7D00B554F5 /* WebThumbnailer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		71A18268134ADD7200B554F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		71A18269134ADD7200B554F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		71A1826B134ADD7200B554F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/WebThumbnailer.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WebThumbnailer/WebThumbnailer-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		71A1826C134ADD7200B554F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/WebThumbnailer.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WebThumbnailer/WebThumbnailer-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71A1825A134ADD7200B554F5 /* Build configuration list for PBXProject "WebThumbnailer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71A18268134ADD7200B554F5 /* Debug */,
+				71A18269134ADD7200B554F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71A1826A134ADD7200B554F5 /* Build configuration list for PBXNativeTarget "WebThumbnailer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71A1826B134ADD7200B554F5 /* Debug */,
+				71A1826C134ADD7200B554F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71A18257134ADD7200B554F5 /* Project object */;
+}
